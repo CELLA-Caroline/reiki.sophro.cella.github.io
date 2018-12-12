@@ -1,0 +1,72 @@
+@media (max-width: 580px) {
+  #title {
+    display: none;
+  }
+  #menu li {
+    z-index: 100;
+    width: 187px;
+    font-size: 2em;
+    margin: 19px;
+  }
+  #content {
+    width: 69%;
+  }
+  #text, #modalite, #prix, #info-complementaire, #duree, #contact, #access, #info-complementaire {
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 776px) {
+  #title {
+    font-size: 0.7em;
+  }
+  #content {
+    margin-top: 80px;
+    width: 80%;
+  }
+  #menu {
+    left: 81px;
+    top: 138px;
+  }
+  #menu li {
+    font-size: 1.8em;
+    margin: 9px;
+  }
+
+}
+
+@media (min-width: 780px) and (max-width: 1140px) {
+  #content{
+    margin-right: 0px;
+    width: 53%;
+  }
+  #menu li {
+    font-size: 2.8em;
+    margin: 9px;
+    width: 299px;
+  }
+}
+
+@media (max-width: 1572px) {
+  .profile {
+    display: none;
+  }
+  #menu {
+    position: relative;
+  }
+  #contact {
+    position: relative;
+    left: 25%;
+  }
+  #map {
+    position: relative;
+    width: 43%;
+  }
+}
+
+@media (max-width: 1844px) {
+  #content {
+    margin-right: 0px;
+    width: 71%;
+  }
+}

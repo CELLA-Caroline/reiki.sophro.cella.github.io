@@ -1,0 +1,53 @@
+@media screen and (max-width: 1374px) {
+    #content {
+        width: 100%;
+    }
+
+    #title h1 {
+        font-size: 38px !important;
+    }
+
+    #title h2 {
+        font-size: 29px !important;
+    }
+
+    #menu {
+        top: 97px;
+        z-index: 1;
+    }
+
+    #menu li {
+        display: inline;
+        font-size: 25px;
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
+    .button-link {
+        width: 36%;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .contact-small {
+        display: inline-block !important;
+        position: absolute;
+        top: 319px;
+    }
+
+    #content {
+        margin-top: 304px;
+        padding-top: 407px;
+    }
+
+    .map {
+        width: 308px;
+        margin-left: 10px;
+    }
+}
